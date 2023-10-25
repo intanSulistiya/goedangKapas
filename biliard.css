@@ -1,0 +1,91 @@
+.biliard-child,
+.biliard-item {
+  position: absolute;
+  cursor: pointer;
+}
+.biliard-child {
+  top: -2px;
+  left: 0;
+  background-color: var(--color-maroon);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 397px;
+  height: 66px;
+}
+.biliard-item {
+  top: 9px;
+  left: 323px;
+  width: 45px;
+  height: 46px;
+  object-fit: cover;
+}
+.billiard,
+.goedang-kapas {
+  position: absolute;
+  top: 79px;
+  left: 167px;
+  display: inline-block;
+  width: 63px;
+  height: 21px;
+}
+.goedang-kapas {
+  top: 344px;
+  left: 36px;
+  font-size: var(--font-size-xs);
+  width: 287px;
+  height: 78px;
+}
+.vector-icon24 {
+  position: absolute;
+  height: 2.37%;
+  width: 6.55%;
+  top: 2.15%;
+  right: 88.41%;
+  bottom: 95.48%;
+  left: 5.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.frame-child10,
+.frame-child11,
+.frame-child12 {
+  position: absolute;
+  top: 0;
+  left: 155px;
+  width: 131px;
+  height: 183px;
+  object-fit: cover;
+}
+.frame-child11,
+.frame-child12 {
+  left: 0;
+}
+.frame-child12 {
+  left: 310px;
+}
+.biliard-inner,
+.rectangle-parent1 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 488px;
+  height: 183px;
+}
+.biliard-inner {
+  top: 124px;
+  left: 7px;
+  width: 345px;
+  overflow-x: auto;
+}
+.biliard {
+  position: relative;
+  background-color: var(--color-oldlace);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-acme);
+}

@@ -1,0 +1,107 @@
+.material-symbolsmenu-icon {
+    position: relative;
+    width: 33.5px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .material-symbolsmenu-wrapper {
+    position: absolute;
+    width: 79.73%;
+    top: calc(50% - 70.5px);
+    right: 0;
+    left: 20.27%;
+    border-radius: var(--br-10xs);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) var(--padding-7xs) var(--padding-9xs)
+      var(--padding-lgi);
+  }
+  .about-as {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    display: inline-block;
+    width: 48px;
+    height: 10px;
+  }
+  .material-symbolsmenu {
+    position: relative;
+    width: 43px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .vector-icon {
+    position: relative;
+    width: 15px;
+    height: 11px;
+  }
+  .material-symbolsmenu-parent {
+    border-radius: var(--br-8xs);
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: var(--gap-8xs);
+  }
+  .material-symbolsmenu-container,
+  .material-symbolsmenu-parent {
+    width: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-9xs) var(--padding-xs) var(--padding-9xs)
+      var(--padding-8xs);
+  }
+  .frame-parent,
+  .material-symbolsmenu-container,
+  .material-symbolsmenu-frame {
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .material-symbolsmenu-frame {
+    width: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-9xs) var(--padding-xs) var(--padding-9xs)
+      var(--padding-8xs);
+    font-size: var(--font-size-4xs);
+  }
+  .frame-parent {
+    position: absolute;
+    height: 68.09%;
+    width: 100%;
+    top: 31.91%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-oldlace);
+    border: 1px solid var(--color-black);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .component-2 {
+    position: absolute;
+    top: 27px;
+    left: 23px;
+    width: 74px;
+    height: 141px;
+  }
+  .component-2-parent {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-2xs);
+    color: var(--color-black);
+    font-family: var(--font-acme);
+  }
+  

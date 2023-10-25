@@ -1,0 +1,133 @@
+.studio-child {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background-color: var(--color-maroon);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 397px;
+    height: 66px;
+  }
+  .studio-item {
+    position: absolute;
+    top: 9px;
+    left: 323px;
+    width: 45px;
+    height: 46px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .studio-foto {
+    position: absolute;
+    top: 90px;
+    left: 152px;
+    display: inline-block;
+    width: 107px;
+    height: 21px;
+  }
+  .vector-icon23 {
+    position: absolute;
+    height: 2.37%;
+    width: 6.55%;
+    top: 2.15%;
+    right: 88.41%;
+    bottom: 95.48%;
+    left: 5.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3 {
+    position: absolute;
+    top: 0;
+    left: 152px;
+    width: 131px;
+    height: 136px;
+    object-fit: cover;
+  }
+  .frame-child2,
+  .frame-child3 {
+    left: 0;
+  }
+  .frame-child3 {
+    left: 304px;
+  }
+  .rectangle-group,
+  .studio-inner {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 488px;
+    height: 136px;
+  }
+  .studio-inner {
+    top: 387px;
+    left: 6px;
+    width: 431px;
+    overflow-x: auto;
+  }
+  .frame-child4,
+  .frame-child5 {
+    position: absolute;
+    top: 0;
+    left: 149px;
+    width: 103px;
+    height: 178px;
+    object-fit: cover;
+  }
+  .frame-child5 {
+    left: 0;
+    width: 118px;
+  }
+  .frame-child6,
+  .frame-child7,
+  .frame-child8,
+  .frame-child9 {
+    position: absolute;
+    top: 0;
+    left: 283px;
+    width: 102px;
+    height: 178px;
+    object-fit: cover;
+  }
+  .frame-child7,
+  .frame-child8,
+  .frame-child9 {
+    left: 416px;
+  }
+  .frame-child8,
+  .frame-child9 {
+    left: 549px;
+  }
+  .frame-child9 {
+    left: 682px;
+  }
+  .rectangle-container,
+  .studio-inner1 {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 921px;
+    height: 178px;
+  }
+  .studio-inner1 {
+    top: 137px;
+    left: 20px;
+    width: 387px;
+    height: 202px;
+    overflow-x: auto;
+  }
+  .studio {
+    position: relative;
+    background-color: var(--color-oldlace);
+    width: 100%;
+    height: 932px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-acme);
+  }
+  

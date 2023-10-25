@@ -1,0 +1,34 @@
+.material-symbolsmenu-icon10,
+.property-1default-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.property-1default-child {
+  background-color: var(--color-gainsboro-100);
+}
+.material-symbolsmenu-icon10 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.property-1default2 {
+  position: absolute;
+  top: 17px;
+  left: 56px;
+  width: 24px;
+  height: 24px;
+}
+.component-1 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 100%;
+  height: 154px;
+  overflow: hidden;
+}

@@ -1,0 +1,71 @@
+.contac-us-child {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background-color: var(--color-maroon);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 397px;
+    height: 66px;
+  }
+  .contac-us-item {
+    position: absolute;
+    top: 9px;
+    left: 323px;
+    width: 45px;
+    height: 46px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .contac-us1 {
+    position: absolute;
+    top: 79px;
+    left: 158px;
+    display: inline-block;
+    width: 81px;
+    height: 21px;
+  }
+  .contac-us-inner {
+    position: absolute;
+    top: 115px;
+    left: 9px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-gainsboro-200);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0.5px solid var(--color-dimgray);
+    box-sizing: border-box;
+    width: 379px;
+    height: 360px;
+  }
+  .vector-icon21 {
+    position: absolute;
+    height: 2.37%;
+    width: 6.55%;
+    top: 2.15%;
+    right: 88.41%;
+    bottom: 95.48%;
+    left: 5.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+  }
+  .whatsapp-logo-1-removebg-previ-icon {
+    position: absolute;
+    top: 133px;
+    left: 33px;
+    width: 30px;
+    height: 31.8px;
+    object-fit: cover;
+  }
+  .contac-us {
+    position: relative;
+    background-color: var(--color-oldlace);
+    width: 100%;
+    height: 932px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-acme);
+  }
+  

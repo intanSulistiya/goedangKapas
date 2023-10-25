@@ -1,0 +1,343 @@
+.fen-child {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background-color: var(--color-maroon);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 394px;
+    height: 66px;
+  }
+  /* .logo-inner, */
+  .logo-gk {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    width: 45px;
+    height: 46px;
+    object-fit: cover;
+  }
+  .fen-inner {
+    top: 26px;
+    left: -579px;
+    width: 160px;
+    height: 136px;
+  }
+  .about-frame {
+    position: absolute;
+    top: 294px;
+    left: 19px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-gainsboro-200);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0.5px solid var(--color-dimgray);
+    box-sizing: border-box;
+    width: 348px;
+    height: 106px;
+  }
+  .goedang-kapas-kjsdindjfrukjdni {
+    position: absolute;
+    top: 305px;
+    left: 30px;
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 302px;
+  }
+  .fasilitas-2,
+  .fasilitas-1,
+  .fasilitas-3 {
+    position: absolute;
+    top: 0;
+    left: 152px;
+    width: 131px;
+    height: 136px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .fasilitas-1,
+  .fasilitas-3 {
+    left: 0;
+  }
+  .fasilitas-3 {
+    left: 304px;
+  }
+  .fasilitas-frame,
+  .rectangle-parent2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 435px;
+    height: 136px;
+  }
+  .fasilitas-frame {
+    top: 450px;
+    left: 19px;
+    width: 362px;
+    overflow-x: auto;
+  }
+  .tenant {
+    position: absolute;
+    top: 615px;
+    left: 172px;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-bubblegum-sans);
+    color: var(--color-dimgray);
+    text-align: center;
+  }
+  .cimcim-2-icon,
+  .kosuke-2-icon {
+    position: absolute;
+    top: 655px;
+    left: 156px;
+    width: 88px;
+    height: 87px;
+    object-fit: cover;
+  }
+  .cimcim-2-icon {
+    top: 652px;
+    left: 19px;
+    width: 105px;
+    height: 80px;
+  }
+  .icon,
+  .sista-2-icon,
+  .yakasa-1-icon {
+    position: absolute;
+    top: 660px;
+    left: 280px;
+    width: 82px;
+    height: 82px;
+    object-fit: cover;
+  }
+  .icon,
+  .yakasa-1-icon {
+    top: 786px;
+    left: 156px;
+    width: 91px;
+    height: 91px;
+  }
+  .yakasa-1-icon {
+    left: 274px;
+    width: 98px;
+    height: 88px;
+  }
+  /* .img-20230920-wa0019-removebg-p-icon,
+  .img-20230920-wa0020-removebg-p-icon {
+    position: absolute;
+    top: 1168px;
+    left: 89px;
+    width: 15px;
+    height: 13.8px;
+    object-fit: cover;
+  } */
+  /* .img-20230920-wa0019-removebg-p-icon {
+    left: 207px;
+    height: 11.4px;
+  } */
+  .profile1,
+  .profile2,
+  .profile3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 139px;
+    height: 163px;
+    object-fit: cover;
+  }
+  .profile2,
+  .profile3 {
+    left: 181px;
+  }
+  .profile3 {
+    left: 360px;
+  }
+  .frame-profile {
+    position: absolute;
+    top: 77px;
+    left: 19px;
+    width: 363px;
+    height: 163px;
+    overflow-x: auto;
+  }
+  .about-goedang-kapas,
+  .fasilitas {
+    position: absolute;
+    top: 261px;
+    left: 114px;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-bubblegum-sans);
+    color: var(--color-dimgray);
+  }
+  .fasilitas {
+    top: 414px;
+    left: 168px;
+  }
+  .material-symbolsmenu-icon11 {
+    position: relative;
+    width: 33.5px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .material-symbolsmenu-wrapper21 {
+    position: absolute;
+    width: 79.73%;
+    top: calc(50% - 70.5px);
+    right: 0;
+    left: 20.27%;
+    border-radius: var(--br-10xs);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) var(--padding-7xs) var(--padding-9xs)
+      var(--padding-lgi);
+  }
+  .about-as11 {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    display: inline-block;
+    width: 48px;
+    height: 10px;
+  }
+  .material-symbolsmenu33 {
+    position: relative;
+    width: 43px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .vector-icon27 {
+    position: relative;
+    width: 15px;
+    height: 11px;
+  }
+  .material-symbolsmenu-parent18 {
+    gap: var(--gap-8xs);
+  }
+  .material-symbolsmenu-parent18,
+  .material-symbolsmenu-wrapper22 {
+    border-radius: var(--br-8xs);
+    width: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) var(--padding-xs) var(--padding-9xs)
+      var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .material-symbolsmenu35 {
+    position: relative;
+    width: 43px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-parent9,
+  .material-symbolsmenu-wrapper23 {
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .material-symbolsmenu-wrapper23 {
+    width: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-9xs) var(--padding-xs) var(--padding-9xs)
+      var(--padding-8xs);
+    cursor: pointer;
+    font-size: var(--font-size-4xs);
+  }
+  .frame-parent9 {
+    position: absolute;
+    height: 68.09%;
+    width: 100%;
+    top: 31.91%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-oldlace);
+    border: 1px solid var(--color-black);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .component-22 {
+    position: absolute;
+    top: 14px;
+    left: 292px;
+    width: 74px;
+    height: 141px;
+    font-size: var(--font-size-2xs);
+    font-family: var(--font-acme);
+  }
+  .div,
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    position: absolute;
+    top: 743px;
+    left: 67px;
+    display: inline-block;
+    width: 18px;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    top: 742px;
+    left: 193px;
+    width: 24px;
+  }
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    left: 309px;
+  }
+  .div3,
+  .div4,
+  .div5 {
+    top: 888px;
+    left: 314px;
+  }
+  .div4,
+  .div5 {
+    top: 887px;
+    left: 189px;
+  }
+  .div5 {
+    top: 882px;
+    left: 55px;
+  }
+  .daeng-1-icon {
+    position: absolute;
+    top: 789px;
+    left: 31px;
+    width: 92px;
+    height: 94px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .fen {
+    position: relative;
+    background-color: var(--color-oldlace);
+    width: 100%;
+    height: 1135px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-chela-one);
+  }
+  

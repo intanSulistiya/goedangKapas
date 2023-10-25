@@ -1,0 +1,277 @@
+.tampilan-menu-minuman-child {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background-color: var(--color-maroon);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 390px;
+    height: 66px;
+  }
+  .vector-icon20 {
+    position: absolute;
+    height: 1.06%;
+    width: 4.62%;
+    top: 2.29%;
+    right: 688.46%;
+    bottom: 96.65%;
+    left: -593.08%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .tampilan-menu-minuman-item {
+    position: absolute;
+    top: 9px;
+    left: 323px;
+    width: 45px;
+    height: 46px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .tampilan-menu-minuman-inner {
+    position: absolute;
+    top: 65px;
+    left: calc(50% - 195px);
+    width: 396px;
+    height: 183px;
+    object-fit: cover;
+  }
+  .tampilan-menu-minuman-child1 {
+    position: absolute;
+    top: 65px;
+    left: -6px;
+    background-color: var(--color-gray);
+    width: 396px;
+    height: 183px;
+  }
+  .daeng-2-icon3 {
+    position: absolute;
+    top: 95px;
+    left: 162px;
+    width: 67px;
+    height: 71px;
+    object-fit: cover;
+  }
+  .daeng-food-n3 {
+    position: absolute;
+    top: 168px;
+    left: 107px;
+    font-family: var(--font-cormorant-upright);
+    color: var(--color-white);
+  }
+  .semua-produk3 {
+    left: 25px;
+    cursor: pointer;
+  }
+  .makanan3,
+  .minuman3,
+  .semua-produk3,
+  .snack3 {
+    position: absolute;
+    top: 272px;
+    font-size: var(--font-size-smi);
+    font-family: var(--font-alata);
+  }
+  .snack3 {
+    left: 328px;
+    cursor: pointer;
+  }
+  .makanan3,
+  .minuman3 {
+    left: 237px;
+  }
+  .makanan3 {
+    left: 145px;
+    cursor: pointer;
+  }
+  .tampilan-menu-minuman-child2,
+  .tampilan-menu-minuman-child3,
+  .tampilan-menu-minuman-child4 {
+    position: absolute;
+    top: 334px;
+    left: 25px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 338px;
+    height: 111px;
+  }
+  .tampilan-menu-minuman-child3,
+  .tampilan-menu-minuman-child4 {
+    top: 474px;
+    left: 22px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .tampilan-menu-minuman-child4 {
+    top: 614px;
+    left: 23px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .tampilan-menu-minuman-child5,
+  .tampilan-menu-minuman-child6 {
+    position: absolute;
+    top: 754px;
+    left: 23px;
+    border-radius: var(--br-mini);
+    width: 346px;
+    height: 119px;
+  }
+  .tampilan-menu-minuman-child6 {
+    top: 894px;
+  }
+  .strawberry-smoothies {
+    position: absolute;
+    top: 923px;
+    left: 161px;
+    display: inline-block;
+    width: 187px;
+    height: 24px;
+  }
+  .tampilan-menu-minuman-child7 {
+    position: absolute;
+    top: 338px;
+    left: 34px;
+    width: 82px;
+    height: 112px;
+    object-fit: cover;
+  }
+  .tampilan-menu-minuman-child8,
+  .tampilan-menu-minuman-child9 {
+    position: absolute;
+    top: 471px;
+    left: 34px;
+    width: 97px;
+    height: 102px;
+    object-fit: cover;
+  }
+  .tampilan-menu-minuman-child9 {
+    top: 622px;
+    left: 37px;
+    width: 79px;
+    height: 112px;
+  }
+  .tampilan-menu-minuman-child10,
+  .tampilan-menu-minuman-child11 {
+    position: absolute;
+    top: 725px;
+    left: 14px;
+    border-radius: var(--br-3xs);
+    width: 137px;
+    height: 178px;
+    object-fit: cover;
+  }
+  .tampilan-menu-minuman-child11 {
+    top: 865px;
+    height: 162px;
+  }
+  .icround-arrow-back-icon3 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 40px;
+    height: 35px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .tampilan-menu-minuman-child12 {
+    position: absolute;
+    top: 358.8px;
+    left: 136.8px;
+    border-right: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    width: 0.5px;
+    height: 64.5px;
+  }
+  .tampilan-menu-minuman-child13,
+  .tampilan-menu-minuman-child14,
+  .tampilan-menu-minuman-child15,
+  .tampilan-menu-minuman-child16 {
+    position: absolute;
+    top: 496.8px;
+    left: 136.8px;
+    border-right: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    width: 0.5px;
+    height: 64.5px;
+  }
+  .tampilan-menu-minuman-child14,
+  .tampilan-menu-minuman-child15,
+  .tampilan-menu-minuman-child16 {
+    top: 640.8px;
+  }
+  .tampilan-menu-minuman-child15,
+  .tampilan-menu-minuman-child16 {
+    top: 777.8px;
+  }
+  .tampilan-menu-minuman-child16 {
+    top: 917.8px;
+  }
+  .lemon-tea1 {
+    position: absolute;
+    top: 366px;
+    left: 161px;
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+  }
+  .rp-1500015,
+  .rp-1500016,
+  .rp-1500017,
+  .rp-1500018,
+  .rp-1500019 {
+    position: absolute;
+    top: 393px;
+    left: 161px;
+    font-size: var(--font-size-mini);
+    display: inline-block;
+    width: 76px;
+    height: 25px;
+  }
+  .rp-1500016,
+  .rp-1500017,
+  .rp-1500018,
+  .rp-1500019 {
+    top: 529px;
+  }
+  .rp-1500017,
+  .rp-1500018,
+  .rp-1500019 {
+    top: 673px;
+  }
+  .rp-1500018,
+  .rp-1500019 {
+    top: 811px;
+  }
+  .rp-1500019 {
+    top: 950px;
+  }
+  .coffe,
+  .greean-tea1,
+  .manggo-smoothies {
+    position: absolute;
+    top: 502px;
+    left: 161px;
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+  }
+  .greean-tea1,
+  .manggo-smoothies {
+    top: 645px;
+  }
+  .manggo-smoothies {
+    top: 778px;
+    width: 178px;
+  }
+  .tampilan-menu-minuman {
+    position: relative;
+    background-color: var(--color-oldlace);
+    width: 100%;
+    height: 1135px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-acme);
+  }
+  

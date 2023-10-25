@@ -1,0 +1,7 @@
+.vector {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 11px;
+  }
+  

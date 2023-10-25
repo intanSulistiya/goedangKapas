@@ -1,0 +1,267 @@
+.tampilan-menu-semua-produk-child {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background-color: var(--color-maroon);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 390px;
+    height: 66px;
+  }
+  .tampilan-menu-semua-produk-item {
+    position: absolute;
+    top: 9px;
+    left: 328px;
+    width: 45px;
+    height: 46px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .tampilan-menu-semua-produk-inner {
+    position: absolute;
+    top: 65px;
+    left: calc(50% - 195px);
+    width: 396px;
+    height: 183px;
+    object-fit: cover;
+  }
+  .tampilan-menu-semua-produk-child1 {
+    position: absolute;
+    top: 65px;
+    left: -6px;
+    background-color: var(--color-gray);
+    width: 396px;
+    height: 183px;
+  }
+  .daeng-2-icon1 {
+    position: absolute;
+    top: 95px;
+    left: 162px;
+    width: 67px;
+    height: 71px;
+    object-fit: cover;
+  }
+  .daeng-food-n1 {
+    position: absolute;
+    top: 168px;
+    left: 107px;
+    font-family: var(--font-cormorant-upright);
+    color: var(--color-white);
+  }
+  .makanan1,
+  .minuman1,
+  .semua-produk1,
+  .snack1 {
+    position: absolute;
+    top: 272px;
+    left: 25px;
+    font-size: var(--font-size-smi);
+    font-family: var(--font-alata);
+  }
+  .makanan1,
+  .minuman1,
+  .snack1 {
+    left: 328px;
+    cursor: pointer;
+  }
+  .makanan1,
+  .minuman1 {
+    left: 237px;
+  }
+  .makanan1 {
+    left: 145px;
+  }
+  .tampilan-menu-semua-produk-child2,
+  .tampilan-menu-semua-produk-child3,
+  .tampilan-menu-semua-produk-child4 {
+    position: absolute;
+    top: 334px;
+    left: 25px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 338px;
+    height: 111px;
+  }
+  .tampilan-menu-semua-produk-child3,
+  .tampilan-menu-semua-produk-child4 {
+    top: 474px;
+    left: 22px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .tampilan-menu-semua-produk-child4 {
+    top: 614px;
+    left: 23px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .tampilan-menu-semua-produk-child5,
+  .tampilan-menu-semua-produk-child6 {
+    position: absolute;
+    top: 754px;
+    left: 23px;
+    border-radius: var(--br-mini);
+    width: 346px;
+    height: 119px;
+  }
+  .tampilan-menu-semua-produk-child6 {
+    top: 894px;
+  }
+  .greean-tea,
+  .lemon-tea,
+  .pisang-nugget {
+    position: absolute;
+    top: 932px;
+    left: 195px;
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+  }
+  .lemon-tea,
+  .pisang-nugget {
+    top: 645px;
+    left: 191px;
+  }
+  .lemon-tea {
+    top: 786px;
+    left: 194px;
+  }
+  .tampilan-menu-semua-produk-child7,
+  .tampilan-menu-semua-produk-child8 {
+    position: absolute;
+    top: 463px;
+    left: 22px;
+    border-radius: var(--br-3xs);
+    width: 139px;
+    height: 142px;
+    object-fit: cover;
+  }
+  .tampilan-menu-semua-produk-child8 {
+    top: 339px;
+    left: 33px;
+    width: 94px;
+    height: 101px;
+  }
+  .nasi-goreng,
+  .roti-bakar1 {
+    position: absolute;
+    top: 365px;
+    left: 186px;
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+  }
+  .nasi-goreng {
+    top: 505px;
+  }
+  .icround-arrow-back-icon1 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 40px;
+    height: 35px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .tampilan-menu-semua-produk-child9 {
+    position: absolute;
+    top: 587px;
+    left: 0;
+    width: 146px;
+    height: 142px;
+    object-fit: cover;
+  }
+  .tampilan-menu-semua-produk-child10,
+  .tampilan-menu-semua-produk-child11 {
+    position: absolute;
+    top: 751px;
+    left: 44px;
+    width: 82px;
+    height: 127px;
+    object-fit: cover;
+  }
+  .tampilan-menu-semua-produk-child11 {
+    top: 900px;
+    height: 111px;
+  }
+  .rp-150005,
+  .rp-150006,
+  .rp-150007,
+  .rp-150008,
+  .rp-150009 {
+    position: absolute;
+    top: 390px;
+    left: 186px;
+    font-size: var(--font-size-mini);
+    display: inline-block;
+    width: 83px;
+    height: 25px;
+  }
+  .rp-150006,
+  .rp-150007,
+  .rp-150008,
+  .rp-150009 {
+    top: 957px;
+    left: 195px;
+    width: 62px;
+  }
+  .rp-150007,
+  .rp-150008,
+  .rp-150009 {
+    top: 669px;
+    left: 191px;
+    width: 63px;
+  }
+  .rp-150008,
+  .rp-150009 {
+    top: 810px;
+    left: 194px;
+  }
+  .rp-150009 {
+    top: 530px;
+    left: 186px;
+    width: 68px;
+  }
+  .tampilan-menu-semua-produk-child12 {
+    position: absolute;
+    top: 356.8px;
+    left: 161.8px;
+    border-right: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    width: 0.5px;
+    height: 64.5px;
+  }
+  .tampilan-menu-semua-produk-child13,
+  .tampilan-menu-semua-produk-child14,
+  .tampilan-menu-semua-produk-child15,
+  .tampilan-menu-semua-produk-child16 {
+    position: absolute;
+    top: 777.8px;
+    left: 161.8px;
+    border-right: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    width: 0.5px;
+    height: 64.5px;
+  }
+  .tampilan-menu-semua-produk-child14,
+  .tampilan-menu-semua-produk-child15,
+  .tampilan-menu-semua-produk-child16 {
+    top: 917.8px;
+  }
+  .tampilan-menu-semua-produk-child15,
+  .tampilan-menu-semua-produk-child16 {
+    top: 636.8px;
+  }
+  .tampilan-menu-semua-produk-child16 {
+    top: 496.8px;
+  }
+  .tampilan-menu-semua-produk {
+    position: relative;
+    background-color: var(--color-oldlace);
+    width: 100%;
+    height: 1135px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-acme);
+  }
+  
