@@ -1,5 +1,6 @@
 .tampilan-menu-minuman-child {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: -1px;
     left: 0;
     background-color: var(--color-maroon);
@@ -20,7 +21,8 @@
     max-height: 100%;
   }
   .tampilan-menu-minuman-item {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 9px;
     left: 323px;
     width: 45px;
@@ -113,11 +115,15 @@
     top: 754px;
     left: 23px;
     border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     width: 346px;
     height: 119px;
   }
   .tampilan-menu-minuman-child6 {
     top: 894px;
+    left: 23px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .strawberry-smoothies {
     position: absolute;
@@ -129,19 +135,19 @@
   }
   .tampilan-menu-minuman-child7 {
     position: absolute;
-    top: 338px;
+    top: 318px;
     left: 34px;
     width: 82px;
-    height: 112px;
+    height: 150px;
     object-fit: cover;
   }
   .tampilan-menu-minuman-child8,
   .tampilan-menu-minuman-child9 {
     position: absolute;
-    top: 471px;
+    top: 473px;
     left: 34px;
-    width: 97px;
-    height: 102px;
+    width: 105px;
+    height: 115px;
     object-fit: cover;
   }
   .tampilan-menu-minuman-child9 {
@@ -165,7 +171,8 @@
     height: 162px;
   }
   .icround-arrow-back-icon3 {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 15px;
     left: 10px;
     width: 40px;

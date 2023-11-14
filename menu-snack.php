@@ -37,17 +37,18 @@
       <img
         class="tampilan-menu-khusus-snack-item"
         alt=""
-        src="./public/rectangle-16@2x.png"
+        src="logo/Logo GKa.png"
+        id="rectangleIcon"
       />
 
       <img
         class="tampilan-menu-khusus-snack-inner"
         alt=""
-        src="./public/rectangle-24@2x.png"
+        src="logo/croissant cafe.jpeg"
       />
 
       <div class="rectangle-div"></div>
-      <img class="daeng-2-icon" alt="" src="./public/daeng-2@2x.png" />
+      <img class="daeng-2-icon" alt="" src="logo/daeng.png" />
 
       <div class="daeng-food-n">DAENG Food N Coffee</div>
       <div class="semua-produk" id="semuaProdukText">Semua produk</div>
@@ -58,44 +59,43 @@
       <div class="tampilan-menu-khusus-snack-child2"></div>
       <div class="tampilan-menu-khusus-snack-child3"></div>
       <div class="line-div"></div>
-      <img class="rectangle-icon" alt="" src="./public/rectangle-32.svg" />
+      <img class="rectangle-icon" alt="" />
 
       <div class="tampilan-menu-khusus-snack-child4"></div>
       <img
         class="tampilan-menu-khusus-snack-child5"
         alt=""
-        src="./public/rectangle-32.svg"
       />
 
       <div class="tampilan-menu-khusus-snack-child6"></div>
       <img
         class="tampilan-menu-khusus-snack-child7"
         alt=""
-        src="./public/rectangle-42@2x.png"
+        src="logo/kentang goreng.png"
       />
 
       <img
         class="tampilan-menu-khusus-snack-child8"
         alt=""
-        src="./public/rectangle-41@2x.png"
+        src="logo/banana-rol.png"
       />
 
       <img
         class="tampilan-menu-khusus-snack-child9"
         alt=""
-        src="./public/rectangle-43@2x.png"
+        src="logo/burger.png"
       />
 
       <img
         class="tampilan-menu-khusus-snack-child10"
         alt=""
-        src="./public/rectangle-44@2x.png"
+        src="logo/roti-bakar.png"
       />
 
       <img
         class="tampilan-menu-khusus-snack-child11"
         alt=""
-        src="./public/rectangle-45@2x.png"
+        src="logo/bakso bakar.png"
       />
 
       <div class="banana-roll">Banana Roll</div>
@@ -106,7 +106,7 @@
       <img
         class="icround-arrow-back-icon"
         alt=""
-        src="./public/icroundarrowback.svg"
+        src="logo/arrow-left-short.svg"
         id="icroundArrowBackIcon"
       />
 
@@ -120,6 +120,13 @@
     </div>
 
     <script>
+      var rectangleIcon = document.getElementById("rectangleIcon");
+      if (rectangleIcon) {
+        rectangleIcon.addEventListener("click", function (e) {
+          window.location.href = "./tampilan-awal.php";
+        });
+      }
+
       var semuaProdukText = document.getElementById("semuaProdukText");
       if (semuaProdukText) {
         semuaProdukText.addEventListener("click", function (e) {
@@ -144,7 +151,7 @@
       var icroundArrowBackIcon = document.getElementById("icroundArrowBackIcon");
       if (icroundArrowBackIcon) {
         icroundArrowBackIcon.addEventListener("click", function (e) {
-          window.location.href = "./tampilan-menu-semua-produk.html";
+          window.location.href = "./semua-menu.php";
         });
       }
       </script>

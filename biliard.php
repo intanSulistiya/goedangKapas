@@ -37,7 +37,7 @@
       <img
         class="biliard-item"
         alt=""
-        src="./public/rectangle-3@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
@@ -46,7 +46,7 @@
       <img
         class="vector-icon24"
         alt=""
-        src="./public/vector4.svg"
+        src="logo/arrow-left-short.svg"
         id="vectorIcon"
       />
 
@@ -55,7 +55,7 @@
           <img
             class="frame-child10"
             alt=""
-            src="./public/rectangle-153@2x.png"
+            src="logo/biliar.jpg"
           />
 
           <img

@@ -37,18 +37,18 @@
       <img
         class="tampilan-menu-khusus-makanan-item"
         alt=""
-        src="./public/rectangle-16@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
       <img
         class="tampilan-menu-khusus-makanan-inner"
         alt=""
-        src="./public/rectangle-24@2x.png"
+        src="logo/croissant cafe.jpeg"
       />
 
       <div class="tampilan-menu-khusus-makanan-child1"></div>
-      <img class="daeng-2-icon2" alt="" src="./public/daeng-2@2x.png" />
+      <img class="daeng-2-icon2" alt="" src="logo/daeng.png" />
 
       <div class="daeng-food-n2">DAENG Food N Coffee</div>
       <div class="semua-produk2" id="semuaProdukText">Semua produk</div>
@@ -61,31 +61,30 @@
       <img
         class="tampilan-menu-khusus-makanan-child5"
         alt=""
-        src="./public/rectangle-32.svg"
+        
       />
 
       <img
         class="tampilan-menu-khusus-makanan-child6"
         alt=""
-        src="./public/rectangle-32.svg"
       />
 
       <img
         class="tampilan-menu-khusus-makanan-child7"
         alt=""
-        src="./public/rectangle-35@2x.png"
+        src="logo/Ayam_geprek.png"
       />
 
       <img
         class="tampilan-menu-khusus-makanan-child8"
         alt=""
-        src="./public/rectangle-361@2x.png"
+        src="logo/rice bowl.png"
       />
 
       <img
         class="tampilan-menu-khusus-makanan-child9"
         alt=""
-        src="./public/rectangle-49@2x.png"
+        src="logo/mie_goreng.png"
       />
 
       <div class="nasi-goreng1">Nasi Goreng</div>
@@ -96,20 +95,20 @@
       <img
         class="tampilan-menu-khusus-makanan-child10"
         alt=""
-        src="./public/rectangle-461@2x.png"
+        src="logo/chiken-katsu.png"
       />
 
       <img
         class="icround-arrow-back-icon2"
         alt=""
-        src="./public/icroundarrowback.svg"
+        src="logo/arrow-left-short.svg"
         id="icroundArrowBackIcon"
       />
 
       <img
         class="tampilan-menu-khusus-makanan-child11"
         alt=""
-        src="./public/rectangle-48@2x.png"
+        src="logo/nasi_goreng.png"
       />
 
       <div class="rp-1500010">Rp 15.000</div>
@@ -142,7 +141,7 @@
       var snackText = document.getElementById("snackText");
       if (snackText) {
         snackText.addEventListener("click", function (e) {
-          window.location.href = "./menu-snak.php";
+          window.location.href = "./menu-snack.php";
         });
       }
       

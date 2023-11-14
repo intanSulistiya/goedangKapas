@@ -1,5 +1,6 @@
 .tampilan-menu-semua-produk-child {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: -1px;
     left: 0;
     background-color: var(--color-maroon);
@@ -8,7 +9,8 @@
     height: 66px;
   }
   .tampilan-menu-semua-produk-item {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 9px;
     left: 328px;
     width: 45px;
@@ -99,11 +101,15 @@
     top: 754px;
     left: 23px;
     border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     width: 346px;
     height: 119px;
   }
   .tampilan-menu-semua-produk-child6 {
     top: 894px;
+    left: 23px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .greean-tea,
   .lemon-tea,
@@ -128,17 +134,17 @@
   .tampilan-menu-semua-produk-child8 {
     position: absolute;
     top: 463px;
-    left: 22px;
+    left: 38px;
     border-radius: var(--br-3xs);
     width: 139px;
     height: 142px;
     object-fit: cover;
   }
   .tampilan-menu-semua-produk-child8 {
-    top: 339px;
-    left: 33px;
-    width: 94px;
-    height: 101px;
+    top: 313px;
+    left: 26px;
+    width: 115px;
+    height: 118px;
   }
   .nasi-goreng,
   .roti-bakar1 {
@@ -153,7 +159,8 @@
     top: 505px;
   }
   .icround-arrow-back-icon1 {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 15px;
     left: 10px;
     width: 40px;
@@ -163,10 +170,10 @@
   }
   .tampilan-menu-semua-produk-child9 {
     position: absolute;
-    top: 587px;
-    left: 0;
-    width: 146px;
-    height: 142px;
+    top: 589px;
+    left: -5;
+    width: 151px;
+    height: 130px;
     object-fit: cover;
   }
   .tampilan-menu-semua-produk-child10,

@@ -37,91 +37,61 @@
       <img
         class="tampilan-menu-semua-produk-item"
         alt=""
-        src="./public/rectangle-16@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
       <img
         class="tampilan-menu-semua-produk-inner"
         alt=""
-        src="./public/rectangle-24@2x.png"
+        src="logo/croissant cafe.jpeg"
       />
 
       <div class="tampilan-menu-semua-produk-child1"></div>
-      <img class="daeng-2-icon1" alt="" src="./public/daeng-2@2x.png" />
+      <img class="daeng-2-icon1" alt="" src="logo/daeng.png" />
 
       <div class="daeng-food-n1">DAENG Food N Coffee</div>
       <div class="semua-produk1">Semua produk</div>
       <div class="snack1" id="snackText">Snack</div>
       <div class="minuman1" id="minumanText">Minuman</div>
       <div class="makanan1" id="makananText">Makanan</div>
+      
+      <div class="menu">
       <div class="tampilan-menu-semua-produk-child2"></div>
       <div class="tampilan-menu-semua-produk-child3"></div>
       <div class="tampilan-menu-semua-produk-child4"></div>
-      <img
-        class="tampilan-menu-semua-produk-child5"
-        alt=""
-        src="./public/rectangle-32.svg"
-      />
-
-      <img
-        class="tampilan-menu-semua-produk-child6"
-        alt=""
-        src="./public/rectangle-32.svg"
-      />
-
+      
+      <img class="tampilan-menu-semua-produk-child5" alt="" />
+      <img class="tampilan-menu-semua-produk-child6" alt="" />
+      
       <div class="greean-tea">Greean Tea</div>
       <div class="pisang-nugget">Pisang Nugget</div>
       <div class="lemon-tea">Lemon Tea</div>
-      <img
-        class="tampilan-menu-semua-produk-child7"
-        alt=""
-        src="./public/rectangle-36@2x.png"
-      />
-
-      <img
-        class="tampilan-menu-semua-produk-child8"
-        alt=""
-        src="./public/rectangle-46@2x.png"
-      />
-
+      
+      <img class="tampilan-menu-semua-produk-child7" alt="" src="logo/nasi_goreng.png" />
+      <img class="tampilan-menu-semua-produk-child8" alt="" src="logo/Biscoff_Stuffed.png" />
+      
       <div class="roti-bakar1">Roti Bakar</div>
       <div class="nasi-goreng">Nasi Goreng</div>
-      <img
-        class="icround-arrow-back-icon1"
-        alt=""
-        src="./public/icroundarrowback.svg"
-        id="icroundArrowBackIcon"
-      />
-
-      <img
-        class="tampilan-menu-semua-produk-child9"
-        alt=""
-        src="./public/rectangle-47@2x.png"
-      />
-
-      <img
-        class="tampilan-menu-semua-produk-child10"
-        alt=""
-        src="./public/rectangle-39@2x.png"
-      />
-
-      <img
-        class="tampilan-menu-semua-produk-child11"
-        alt=""
-        src="./public/rectangle-391@2x.png"
-      />
-
+      
+      <img class="icround-arrow-back-icon1" alt="" src="logo/arrow-left-short.svg" id="icroundArrowBackIcon" />
+      
+      <img class="tampilan-menu-semua-produk-child9" alt="" src="logo/Pisang_Owol.png" />
+      <img class="tampilan-menu-semua-produk-child10" alt="" src="logo/esteh.png" />
+      <img class="tampilan-menu-semua-produk-child11" alt="" src="logo/Greean Tea.png" />
+      
       <div class="rp-150005">Rp 15.000</div>
       <div class="rp-150006">Rp 15.000</div>
       <div class="rp-150007">Rp 15.000</div>
       <div class="rp-150008">Rp 15.000</div>
       <div class="rp-150009">Rp 15.000</div>
+      
       <div class="tampilan-menu-semua-produk-child12"></div>
       <div class="tampilan-menu-semua-produk-child13"></div>
       <div class="tampilan-menu-semua-produk-child14"></div>
       <div class="tampilan-menu-semua-produk-child15"></div>
       <div class="tampilan-menu-semua-produk-child16"></div>
+    </div>
     </div>
 
     <script>
@@ -135,7 +105,7 @@
       var snackText = document.getElementById("snackText");
       if (snackText) {
         snackText.addEventListener("click", function (e) {
-          window.location.href = "./menu-snak.php";
+          window.location.href = "./menu-snack.php";
         });
       }
       

@@ -1,5 +1,6 @@
 .fen-child {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: -2px;
     left: 0;
     background-color: var(--color-maroon);
@@ -9,7 +10,8 @@
   }
   /* .logo-inner, */
   .logo-gk {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 9px;
     left: 12px;
     width: 45px;
@@ -173,14 +175,17 @@
     top: 414px;
     left: 168px;
   }
-  .material-symbolsmenu-icon11 {
-    position: relative;
+  .material-symbolsmenu-icon11{
+    position: fixed;
+    z-index: 1;
+    top: 21px;
+    left: 330px;
     width: 33.5px;
     height: 24px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .material-symbolsmenu-wrapper21 {
+  /* .material-symbolsmenu-wrapper21 {
     position: absolute;
     width: 79.73%;
     top: calc(50% - 70.5px);
@@ -195,7 +200,7 @@
     justify-content: flex-start;
     padding: var(--padding-9xs) var(--padding-7xs) var(--padding-9xs)
       var(--padding-lgi);
-  }
+  } */
   .about-as11 {
     position: absolute;
     top: 4px;
@@ -270,11 +275,12 @@
     align-items: flex-start;
   }
   .component-22 {
-    position: absolute;
-    top: 14px;
-    left: 292px;
-    width: 74px;
-    height: 141px;
+    position: fixed;
+    z-index: 1;
+    top: 7px;
+    left: 299px;
+    width: 76px;
+    height: 43px;
     font-size: var(--font-size-2xs);
     font-family: var(--font-acme);
   }
@@ -317,8 +323,8 @@
     left: 189px;
   }
   .div5 {
-    top: 882px;
-    left: 55px;
+    top: 889px;
+    left: 68px;
   }
   .daeng-1-icon {
     position: absolute;
@@ -340,4 +346,50 @@
     color: var(--color-black);
     font-family: var(--font-chela-one);
   }
-  
+
+/* Styling burger icon */
+#burgerIcon {
+  cursor: pointer;
+}
+
+/* Styling dropdown menu */
+.burger-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Menggeser dropdown ke bawah burger icon */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Lebih banyak styling CSS sesuai kebutuhan Anda */
+}
+
+.burger-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.burger-menu li {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Hover effect untuk item dropdown */
+.burger-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling untuk link atau teks dalam item dropdown */
+.burger-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hover effect untuk link dalam item dropdown */
+.burger-menu a:hover {
+  color: #007bff;
+}

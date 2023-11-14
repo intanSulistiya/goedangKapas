@@ -37,15 +37,16 @@
       <img
         class="lokasi-item"
         alt=""
-        src="./public/rectangle-3@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
       <div class="lokasi12">Lokasi</div>
       <div class="lokasi-inner"></div>
       <div class="jl-pelita-empoang">
-        Jl. Pelita, Empoang, Kec. Binamu, Kabupaten Jeneponto, Sulawesi Selatan
-        92311
+        <a href="https://maps.app.goo.gl/JjqjkU6JA3SJWEob7" target="_blank">Jl. Pelita, Empoang, Kec. Binamu, Kabupaten Jeneponto, Sulawesi Selatan
+        92311</a>
+        
       </div>
       <img
         class="basemap-image-icon"
@@ -56,23 +57,23 @@
       <img
         class="vector-icon26"
         alt=""
-        src="./public/vector4.svg"
+        src="logo/arrow-left.svg"
         id="vectorIcon"
       />
     </div>
 
     <script>
-      var rectangleIcon = document.getElementById("rectangleIcon");
-      if (rectangleIcon) {
-        rectangleIcon.addEventListener("click", function (e) {
-          window.location.href = "./tamplan-awal.php";
-        });
-      }
+      // var rectangleIcon = document.getElementById("rectangleIcon");
+      // if (rectangleIcon) {
+      //   rectangleIcon.addEventListener("click", function (e) {
+      //     window.location.href = "./tampilan-awal.php";
+      //   });
+      // }
       
       var vectorIcon = document.getElementById("vectorIcon");
       if (vectorIcon) {
         vectorIcon.addEventListener("click", function (e) {
-          window.location.href = "./tamplan-awal.php";
+          window.location.href = "./tampilan-awal.php";
         });
       }
       </script>
