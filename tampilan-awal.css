@@ -1,5 +1,6 @@
 .fen-child {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: -2px;
     left: 0;
     background-color: var(--color-maroon);
@@ -9,7 +10,8 @@
   }
   /* .logo-inner, */
   .logo-gk {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 9px;
     left: 12px;
     width: 45px;
@@ -71,21 +73,97 @@
     height: 136px;
   }
   .fasilitas-frame {
-    top: 450px;
+    top: 305px;
     left: 19px;
     width: 362px;
     overflow-x: auto;
   }
   .tenant {
     position: absolute;
-    top: 615px;
-    left: 172px;
+    top: 462px;
+    left: 147px;
     font-size: var(--font-size-xl);
     font-family: var(--font-bubblegum-sans);
     color: var(--color-dimgray);
     text-align: center;
   }
-  .cimcim-2-icon,
+  .tampilan-menu-semua-produk-child2,
+  .tampilan-menu-semua-produk-child3,
+  .tampilan-menu-semua-produk-child4 {
+    position: absolute;
+    top: 500px;
+    left: 25px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 338px;
+    height: 111px;
+  }
+  .tampilan-menu-semua-produk-child3,
+  .tampilan-menu-semua-produk-child4 {
+    top: 770px;
+    left: 22px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .tampilan-menu-semua-produk-child4 {
+    top: 905px;
+    left: 23px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .tampilan-menu-semua-produk-child5 {
+    position: absolute;
+    top: 1043px;
+    left: 23px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 346px;
+    height: 119px;
+  }
+  .tampilan-menu-semua-produk-child7,
+  .tampilan-menu-semua-produk-child8 {
+    position: absolute;
+    top: 463px;
+    left: 38px;
+    border-radius: var(--br-3xs);
+    width: 139px;
+    height: 142px;
+    object-fit: cover;
+  }
+  .tampilan-menu-semua-produk-child8 {
+    top: 313px;
+    left: 26px;
+    width: 115px;
+    height: 118px;
+  }
+  .makanan-berat,
+  .japanese-food,
+  .dessert {
+    position: absolute;
+    top: 700px;
+    left: 184px;
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+  }
+  .japanese-food,
+  .dessert {
+    top: 955px;
+    left: 223px;
+  }
+  .japanese-food {
+    top: 825px;
+    left: 188px;
+  }
+  .minuman {
+    position: absolute;
+    top: 1080px;
+    left: 219px;
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+  }
+  /* .cimcim-2-icon,
   .kosuke-2-icon {
     position: absolute;
     top: 655px;
@@ -121,7 +199,7 @@
     left: 274px;
     width: 98px;
     height: 88px;
-  }
+  } */
   /* .img-20230920-wa0019-removebg-p-icon,
   .img-20230920-wa0020-removebg-p-icon {
     position: absolute;
@@ -170,17 +248,20 @@
     color: var(--color-dimgray);
   }
   .fasilitas {
-    top: 414px;
+    top: 266px;
     left: 168px;
   }
-  .material-symbolsmenu-icon11 {
-    position: relative;
+  .material-symbolsmenu-icon11{
+    position: fixed;
+    z-index: 1;
+    top: 21px;
+    left: 330px;
     width: 33.5px;
     height: 24px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .material-symbolsmenu-wrapper21 {
+  /* .material-symbolsmenu-wrapper21 {
     position: absolute;
     width: 79.73%;
     top: calc(50% - 70.5px);
@@ -195,7 +276,7 @@
     justify-content: flex-start;
     padding: var(--padding-9xs) var(--padding-7xs) var(--padding-9xs)
       var(--padding-lgi);
-  }
+  } */
   .about-as11 {
     position: absolute;
     top: 4px;
@@ -270,11 +351,12 @@
     align-items: flex-start;
   }
   .component-22 {
-    position: absolute;
-    top: 14px;
-    left: 292px;
-    width: 74px;
-    height: 141px;
+    position: fixed;
+    z-index: 1;
+    top: 7px;
+    left: 299px;
+    width: 76px;
+    height: 43px;
     font-size: var(--font-size-2xs);
     font-family: var(--font-acme);
   }
@@ -317,8 +399,8 @@
     left: 189px;
   }
   .div5 {
-    top: 882px;
-    left: 55px;
+    top: 889px;
+    left: 68px;
   }
   .daeng-1-icon {
     position: absolute;
@@ -340,4 +422,50 @@
     color: var(--color-black);
     font-family: var(--font-chela-one);
   }
-  
+
+/* Styling burger icon */
+#burgerIcon {
+  cursor: pointer;
+}
+
+/* Styling dropdown menu */
+.burger-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Menggeser dropdown ke bawah burger icon */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Lebih banyak styling CSS sesuai kebutuhan Anda */
+}
+
+.burger-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.burger-menu li {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Hover effect untuk item dropdown */
+.burger-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling untuk link atau teks dalam item dropdown */
+.burger-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hover effect untuk link dalam item dropdown */
+.burger-menu a:hover {
+  color: #007bff;
+}

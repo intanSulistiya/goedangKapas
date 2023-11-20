@@ -37,7 +37,7 @@
       <img
         class="about-us-item"
         alt=""
-        src="./public/rectangle-3@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
@@ -47,23 +47,23 @@
       <img
         class="vector-icon25"
         alt=""
-        src="./public/vector4.svg"
+        src="logo/arrow-left.svg"
         id="vectorIcon"
       />
     </div>
 
     <script>
-      var rectangleIcon = document.getElementById("rectangleIcon");
-      if (rectangleIcon) {
-        rectangleIcon.addEventListener("click", function (e) {
-          window.location.href = "./tampilan-awal.php";
-        });
-      }
+      // var rectangleIcon = document.getElementById("rectangleIcon");
+      // if (rectangleIcon) {
+      //   rectangleIcon.addEventListener("click", function (e) {
+      //     window.location.href = "./tampilan-awal.php";
+      //   });
+      // }
       
       var vectorIcon = document.getElementById("vectorIcon");
       if (vectorIcon) {
         vectorIcon.addEventListener("click", function (e) {
-          window.location.href = "./tamplan-awal.php";
+          window.location.href = "./tampilan-awal.php";
         });
       }
       </script>

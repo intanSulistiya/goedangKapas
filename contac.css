@@ -51,11 +51,66 @@
   }
   .whatsapp-logo-1-removebg-previ-icon {
     position: absolute;
-    top: 133px;
+    top: 145px;
     left: 33px;
-    width: 30px;
-    height: 31.8px;
+    width: 27px;
+    height: 27px;
     object-fit: cover;
+  }
+  .nomor-whatsapp {
+    position: absolute;
+    top: 144px;
+    left: 75px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 358px;
+  }
+  .nomor-whatsapp a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .instagram-logo-2-removebg-previ-icon {
+    position: absolute;
+    top: 186px;
+    left: 34px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+  .user-instagram {
+    position: absolute;
+    top: 183px;
+    left: 73px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 358px;
+  }
+  .user-instagram a{
+    text-decoration: none;
+    color: inherit ;
+  }
+  .facebook-logo-3-removebg-previ-icon {
+    position: absolute;
+    top: 226px;
+    left: 34px;
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+  }
+  .akun-facebook {
+    position: absolute;
+    top: 225px;
+    left: 73px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 358px;
+  }
+  .akun-facebook a{
+    text-decoration: none;
+    color: inherit ;
   }
   .contac-us {
     position: relative;

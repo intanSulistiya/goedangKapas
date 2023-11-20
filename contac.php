@@ -37,23 +37,44 @@
       <img
         class="contac-us-item"
         alt=""
-        src="./public/rectangle-3@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
       <div class="contac-us1">Contac Us</div>
       <div class="contac-us-inner"></div>
+      <div class="nomor-whatsapp">
+        <a href="https://wa.link/qez0zx" target="_blank">082219752803</a>
+      </div>
+        <img
+          class="whatsapp-logo-1-removebg-previ-icon"
+          alt=""
+          src="logo/whatsapp.svg" 
+        />
+
+      <div class="user-instagram">
+        <a href="https://www.instagram.com/goedangkapas.kuliner/" target="_blank">goedangkapas.kuliner</a>
+      </div>
+        <img
+          class="instagram-logo-2-removebg-previ-icon"
+          alt=""
+          src="logo/instagram.svg" 
+        />
+
+      <div class="akun-facebook">
+        <a href="https://www.facebook.com/profile.php?id=100090297552609" target="_blank">Goedang Kapas Culinary Station</a>
+      </div>
+        <img 
+          class="facebook-logo-3-removebg-previ-icon"
+          src="logo/facebook.svg" 
+          alt="">
+        />
+
       <img
         class="vector-icon21"
         alt=""
-        src="./public/vector4.svg"
+        src="logo/arrow-left.svg"
         id="vectorIcon"
-      />
-
-      <img
-        class="whatsapp-logo-1-removebg-previ-icon"
-        alt=""
-        src="./public/whatsapplogo1removebgpreview-1@2x.png"
       />
     </div>
 

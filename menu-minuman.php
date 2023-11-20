@@ -39,18 +39,18 @@
       <img
         class="tampilan-menu-minuman-item"
         alt=""
-        src="./public/rectangle-16@2x.png"
+        src="logo/Logo GKa.png"
         id="rectangleIcon"
       />
 
       <img
         class="tampilan-menu-minuman-inner"
         alt=""
-        src="./public/rectangle-24@2x.png"
+        src="logo/croissant cafe.jpeg"
       />
 
       <div class="tampilan-menu-minuman-child1"></div>
-      <img class="daeng-2-icon3" alt="" src="./public/daeng-2@2x.png" />
+      <img class="daeng-2-icon3" alt="" src="logo/daeng.png" />
 
       <div class="daeng-food-n3">DAENG Food N Coffee</div>
       <div class="semua-produk3" id="semuaProdukText">Semua produk</div>
@@ -60,53 +60,53 @@
       <div class="tampilan-menu-minuman-child2"></div>
       <div class="tampilan-menu-minuman-child3"></div>
       <div class="tampilan-menu-minuman-child4"></div>
+      <div class="tampilan-menu-minuman-child5"></div>
+      <div class="tampilan-menu-minuman-child6"></div>
       <img
         class="tampilan-menu-minuman-child5"
         alt=""
-        src="./public/rectangle-32.svg"
       />
 
       <img
         class="tampilan-menu-minuman-child6"
         alt=""
-        src="./public/rectangle-32.svg"
       />
 
       <div class="strawberry-smoothies">Strawberry Smoothies</div>
       <img
         class="tampilan-menu-minuman-child7"
         alt=""
-        src="./public/rectangle-27@2x.png"
+        src="logo/esteh.png"
       />
 
       <img
         class="tampilan-menu-minuman-child8"
         alt=""
-        src="./public/rectangle-29@2x.png"
+        src="logo/coffe.png"
       />
 
       <img
         class="tampilan-menu-minuman-child9"
         alt=""
-        src="./public/rectangle-31@2x.png"
+        src="logo/Greean Tea.png"
       />
 
       <img
         class="tampilan-menu-minuman-child10"
         alt=""
-        src="./public/rectangle-37@2x.png"
+        src="logo/Mango_Banana_Smoothie.png"
       />
 
       <img
         class="tampilan-menu-minuman-child11"
         alt=""
-        src="./public/rectangle-38@2x.png"
+        src="logo/Strawberry Smoothies.png"
       />
 
       <img
         class="icround-arrow-back-icon3"
         alt=""
-        src="./public/icroundarrowback.svg"
+        src="logo/arrow-left-short.svg"
         id="icroundArrowBackIcon"
       />
 
